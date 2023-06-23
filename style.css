@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
 }
 
+.body {
+  display: flex;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -23,6 +27,7 @@ header {
 .headerRight ul li {
   list-style-type: none;
   color: #fff;
+  font-size: 14px;
 }
 
 span.eclipse {
@@ -104,4 +109,20 @@ span.eclipse {
   width: 462px;
   color: #d9d9d9;
   opacity: 0.7;
+}
+
+.rightContent img {
+  position: absolute;
+  right: 12px;
+  animation: move 1s infinite;
+  transition: ease-in-out 1s;
+}
+
+@keyframes move {
+  0% {
+    top: 85px;
+  }
+  100% {
+    top: 95px;
+  }
 }
