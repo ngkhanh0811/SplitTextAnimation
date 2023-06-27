@@ -19,6 +19,10 @@ header {
   justify-content: space-between;
 }
 
+.headerLeft img {
+  cursor: pointer;
+}
+
 .headerRight ul {
   display: flex;
   align-items: center;
@@ -29,6 +33,16 @@ header {
   list-style-type: none;
   color: #fff;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.headerRight ul li p {
+  display: inline-block;
+  position: relative;
+}
+
+.headerRight ul li p:hover {
+  border-bottom: 1px solid #fff;
 }
 
 span.eclipse {
