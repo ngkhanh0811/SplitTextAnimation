@@ -43,6 +43,7 @@ header {
 
 .headerRight ul li p:hover {
   border-bottom: 1px solid #fff;
+  font-weight: 700;
 }
 
 span.eclipse {
