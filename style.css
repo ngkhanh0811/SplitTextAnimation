@@ -78,6 +78,12 @@ span.eclipse {
   border-radius: 8px;
   border: none;
   margin-top: 40px;
+  cursor: pointer;
+}
+
+.leftContent button:hover {
+  background: #1b50ad;
+  transition: ease-in-out 0.25s;
 }
 
 /* Split Text  */
@@ -110,4 +116,10 @@ span.eclipse {
   width: 462px;
   color: #d9d9d9;
   opacity: 0.7;
+}
+
+.rightContent lottie-player {
+  position: absolute;
+  top: 85px;
+  right: 9px;
 }
